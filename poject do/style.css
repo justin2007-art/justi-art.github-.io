@@ -1,0 +1,30 @@
+body,html{
+  font-family: Arial, Helvetica, sans-serif;  
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background:url(fondo.jpg)center center;
+  background-size: cover;
+}
+.contenedor{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(205, 0, 41);
+    border-radius: 20px;
+    box-shadow: 0 4 px 8px rgba(0, 0, 0, 0.1);
+}
+.boton-redireccion{
+    background-color: rgb(105, 4, 4);
+    color:white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boton-redireccion:hover{
+    background-color: gray;
+}

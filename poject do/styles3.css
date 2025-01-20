@@ -1,0 +1,38 @@
+body,html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(fondo.jpg)center center;
+  background-size: cover;
+}
+
+.contenedor {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(205, 0, 41);
+  border-radius: 20px;
+  box-shadow: 0 4 px 8px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #aa1919;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 75px;
+}
